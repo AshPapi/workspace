@@ -8,57 +8,19 @@
         background-size: cover;
     }
     
-    .head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    header{
         background-color: rgb(53, 171, 7);
-        padding: 10px 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        position: relative;
-        top: 0;
-        width: 100%;
-        z-index: 10;
+        height: 50px
     }
     
-    .logo {
-        height: 40px;
+    nav{
+        background-color: rgb(53, 171, 7);;
     }
-    
     nav ul {
         list-style: none;
-        display: flex;
-        margin: 0;
-    }
-    
-    nav ul li {
-        margin-left: 30px;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        font-size: 16px;
     }
     
     nav ul li a:hover {
-        color: black;
-    }
-    
-    .header-info {
-        display: flex;
-        align-items: center;
-    }
-    
-    .header-info a {
-        margin-left: 15px;
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    
-    .header-info a:hover {
         color: black;
     }
     
@@ -68,9 +30,6 @@
         background-position: center;
         height: 425px;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         color: rgb(53, 171, 7);
         text-align: center;
     }
