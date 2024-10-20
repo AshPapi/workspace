@@ -10,7 +10,7 @@
     
     header{
         background-color: rgb(53, 171, 7);
-        height: 50px
+        height: auto
     }
     
     nav{
@@ -42,70 +42,6 @@
     .card:hover {
         transform: translateY(-10px);
     }
-    
-    .card-footer button {
-        background-color: rgb(53, 171, 7);
-        border: none;
-    }
-    
-    .card-footer button:hover {
-        background-color: rgb(45, 145, 6);
-    }
-    
-    .card{
-        height: 780px;
-    }
-
-    .card-img {
-        width: 75%;
-        border-radius: 8px;
-        margin-bottom: 20px;
-    }
-    
-    .card h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        color: #2a9d8f;
-    }
-    
-    .card p {
-        font-size: 19px;
-        line-height: 1.6;
-        color: #555;
-    }
-    
-    details {
-        width: 100%;
-        margin-top: auto;
-    }
-    
-    summary {
-        cursor: pointer;
-        background-color: rgb(53, 171, 7);
-        padding: 10px;
-        border: 2px solid #000000;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-    }
-    
-    summary:hover {
-        background-color: #ffffff;
-    }
-    
-    details .card {
-        transition: 0.5s ease;
-    }
-
-    .card h3 {
-        font-size: 24px;
-        color: #333;
-    }
-    
-    .card p {
-        font-size: 16px;
-        color: #666;
-    }
-   
 
     .card-price {
         height: 400px;
@@ -114,21 +50,6 @@
         background-color: #fff;
         border: solid 2px rgb(53, 171, 7);
     }    
-    
-    input, textarea {
-        background: #E9EFF6;
-        line-height: 40px;
-        border-width: 0;
-        border-radius: 20px;
-        font-family: 'Roboto', sans-serif;
-     }
-
-     input[type="submit"] {
-        background: rgb(53, 171, 7);
-        cursor: pointer;
-        font-size: 14px;
-        line-height: 40px;
-     }
      
      .form-text{
         font-family: 'Roboto', sans-serif;
@@ -138,5 +59,5 @@
     
     footer {
         background-color: rgb(53, 171, 7);
-        height: 90px ;
+        height: auto ;
     }
